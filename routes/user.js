@@ -22,8 +22,8 @@ const decrypt = (pass) => {
 var transporter = nodemailer.createTransport({
   service: 'gmail',
   auth: {
-    user: 'rashid.sj91@gmail.com',
-    pass: 'shahidjamal'
+    user: ,
+    pass: 
   }
 });
 const otp = otpGenerator.generate(6, { upperCase: false, specialChars: false })
